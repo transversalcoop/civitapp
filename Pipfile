@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+jinja2 = "*"
+django-ckeditor-5 = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
+whitenoise = "*"
+matplotlib = "*"
+pandas = "*"
+numpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
